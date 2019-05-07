@@ -1,0 +1,13 @@
+<?php
+$kullaniciadi =$_POST['kullanici'];
+$sifre =$_POST['sifre'];
+$sigara=$_POST['sigara'];
+$askerlik=$_POST['askerlik'];
+$istek=$_POST['istek'];
+
+echo "Kullanýcý Adý:$kullaniciadi<br>";
+echo "Þifre:$sifre<br>";
+echo "Askerlik:$askerlik<br>";
+echo "Sigara:$sigara<br>";
+echo "Ýstekler:$istek<br>";
+?>

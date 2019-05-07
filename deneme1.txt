@@ -1,0 +1,15 @@
+<form method="post" action="deneme1.php">
+Kullanýcý <input type="text" name="kullanici" /> <br>
+Parola    <input type="password" name="sifre" /><br>
+<br>Sigara Kullanýmý<br>
+   Kullanmýyorum<input type="radio" CHECKED name="sigara" value="Kullanmýyor"/>
+   Ara Sýra<input type="radio" name="sigara" value="Ara Sýra Kullanýyor"/>
+   Kullanýyorum<input type="radio" name="sigara" value="Kullanýyor"/>
+<br><br>Askerlik <select name="askerlik">
+<option value="Yapýldý">Yapýldý</option>
+<option value="Tecilli">Tecilli</option>
+<option value="Muaf">Muaf</option>
+</select><br>
+Ýsteklerim<textarea name="istek" rows="4"></textarea>
+<br><input type="submit" value="Gonder" />
+</form>
